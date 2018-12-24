@@ -9,6 +9,7 @@ namespace BoardF
     public class Game
     {
         int size = 0;
+        public int moves { get; private set; }
 
         public Game (int size)
         {

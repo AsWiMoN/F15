@@ -1,0 +1,6 @@
+D:\z_tp\C_sharp\F15\BoardF\bin\Debug\BoardF.dll
+D:\z_tp\C_sharp\F15\BoardF\bin\Debug\BoardF.pdb
+D:\z_tp\C_sharp\F15\BoardF\obj\Debug\BoardF.csprojAssemblyReference.cache
+D:\z_tp\C_sharp\F15\BoardF\obj\Debug\BoardF.csproj.CoreCompileInputs.cache
+D:\z_tp\C_sharp\F15\BoardF\obj\Debug\BoardF.dll
+D:\z_tp\C_sharp\F15\BoardF\obj\Debug\BoardF.pdb

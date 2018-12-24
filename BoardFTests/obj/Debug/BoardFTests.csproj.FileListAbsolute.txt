@@ -1,0 +1,16 @@
+D:\z_tp\C_sharp\F15\BoardFTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\z_tp\C_sharp\F15\BoardFTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\z_tp\C_sharp\F15\BoardFTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\z_tp\C_sharp\F15\BoardFTests\bin\Debug\BoardFTests.dll
+D:\z_tp\C_sharp\F15\BoardFTests\bin\Debug\BoardFTests.pdb
+D:\z_tp\C_sharp\F15\BoardFTests\bin\Debug\BoardF.dll
+D:\z_tp\C_sharp\F15\BoardFTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\z_tp\C_sharp\F15\BoardFTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\z_tp\C_sharp\F15\BoardFTests\bin\Debug\BoardF.pdb
+D:\z_tp\C_sharp\F15\BoardFTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\z_tp\C_sharp\F15\BoardFTests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\z_tp\C_sharp\F15\BoardFTests\obj\Debug\BoardFTests.csprojAssemblyReference.cache
+D:\z_tp\C_sharp\F15\BoardFTests\obj\Debug\BoardFTests.csproj.CoreCompileInputs.cache
+D:\z_tp\C_sharp\F15\BoardFTests\obj\Debug\BoardFTests.csproj.CopyComplete
+D:\z_tp\C_sharp\F15\BoardFTests\obj\Debug\BoardFTests.dll
+D:\z_tp\C_sharp\F15\BoardFTests\obj\Debug\BoardFTests.pdb
