@@ -26,6 +26,7 @@ namespace BoardF.Tests
             game.PressAt(2, 3);
             Assert.AreEqual(0, game.GetDigitAt(2, 3));
             Assert.AreEqual(15, game.GetDigitAt(3, 3));
+            game.PressAt(2, 2);
             Assert.AreEqual(0, game.GetDigitAt(2, 2));
             Assert.AreEqual(11, game.GetDigitAt(2, 3));
         }
