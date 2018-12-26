@@ -1,0 +1,10 @@
+D:\z_tp\C_sharp\F15\F15_Win\bin\Debug\F15_Win.exe.config
+D:\z_tp\C_sharp\F15\F15_Win\bin\Debug\F15_Win.exe
+D:\z_tp\C_sharp\F15\F15_Win\bin\Debug\F15_Win.pdb
+D:\z_tp\C_sharp\F15\F15_Win\obj\Debug\F15_Win.csprojAssemblyReference.cache
+D:\z_tp\C_sharp\F15\F15_Win\obj\Debug\F15_Win.FormF15.resources
+D:\z_tp\C_sharp\F15\F15_Win\obj\Debug\F15_Win.Properties.Resources.resources
+D:\z_tp\C_sharp\F15\F15_Win\obj\Debug\F15_Win.csproj.GenerateResource.cache
+D:\z_tp\C_sharp\F15\F15_Win\obj\Debug\F15_Win.csproj.CoreCompileInputs.cache
+D:\z_tp\C_sharp\F15\F15_Win\obj\Debug\F15_Win.exe
+D:\z_tp\C_sharp\F15\F15_Win\obj\Debug\F15_Win.pdb
