@@ -45,12 +45,14 @@
             this.b23 = new System.Windows.Forms.Button();
             this.b13 = new System.Windows.Forms.Button();
             this.b03 = new System.Windows.Forms.Button();
+            this.buttonStart = new System.Windows.Forms.Button();
+            this.labelMoves = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // b00
             // 
             this.b00.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b00.Location = new System.Drawing.Point(12, 12);
+            this.b00.Location = new System.Drawing.Point(12, 52);
             this.b00.Name = "b00";
             this.b00.Size = new System.Drawing.Size(72, 69);
             this.b00.TabIndex = 0;
@@ -62,173 +64,211 @@
             // b10
             // 
             this.b10.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b10.Location = new System.Drawing.Point(90, 12);
+            this.b10.Location = new System.Drawing.Point(90, 52);
             this.b10.Name = "b10";
             this.b10.Size = new System.Drawing.Size(72, 69);
             this.b10.TabIndex = 1;
             this.b10.TabStop = false;
             this.b10.Text = "F";
             this.b10.UseVisualStyleBackColor = true;
+            this.b10.Click += new System.EventHandler(this.b00_Click);
             // 
             // b20
             // 
             this.b20.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b20.Location = new System.Drawing.Point(168, 12);
+            this.b20.Location = new System.Drawing.Point(168, 52);
             this.b20.Name = "b20";
             this.b20.Size = new System.Drawing.Size(72, 69);
             this.b20.TabIndex = 2;
             this.b20.TabStop = false;
             this.b20.Text = "F";
             this.b20.UseVisualStyleBackColor = true;
+            this.b20.Click += new System.EventHandler(this.b00_Click);
             // 
             // b30
             // 
             this.b30.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b30.Location = new System.Drawing.Point(247, 12);
+            this.b30.Location = new System.Drawing.Point(247, 52);
             this.b30.Name = "b30";
             this.b30.Size = new System.Drawing.Size(72, 69);
             this.b30.TabIndex = 3;
             this.b30.TabStop = false;
             this.b30.Text = "F";
             this.b30.UseVisualStyleBackColor = true;
+            this.b30.Click += new System.EventHandler(this.b00_Click);
             // 
             // b31
             // 
             this.b31.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b31.Location = new System.Drawing.Point(247, 87);
+            this.b31.Location = new System.Drawing.Point(247, 127);
             this.b31.Name = "b31";
             this.b31.Size = new System.Drawing.Size(72, 69);
             this.b31.TabIndex = 7;
             this.b31.TabStop = false;
             this.b31.Text = "F";
             this.b31.UseVisualStyleBackColor = true;
+            this.b31.Click += new System.EventHandler(this.b00_Click);
             // 
             // b21
             // 
             this.b21.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b21.Location = new System.Drawing.Point(168, 87);
+            this.b21.Location = new System.Drawing.Point(168, 127);
             this.b21.Name = "b21";
             this.b21.Size = new System.Drawing.Size(72, 69);
             this.b21.TabIndex = 6;
             this.b21.TabStop = false;
             this.b21.Text = "F";
             this.b21.UseVisualStyleBackColor = true;
+            this.b21.Click += new System.EventHandler(this.b00_Click);
             // 
             // b11
             // 
             this.b11.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b11.Location = new System.Drawing.Point(90, 87);
+            this.b11.Location = new System.Drawing.Point(90, 127);
             this.b11.Name = "b11";
             this.b11.Size = new System.Drawing.Size(72, 69);
             this.b11.TabIndex = 5;
             this.b11.TabStop = false;
             this.b11.Text = "F";
             this.b11.UseVisualStyleBackColor = true;
+            this.b11.Click += new System.EventHandler(this.b00_Click);
             // 
             // b01
             // 
             this.b01.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b01.Location = new System.Drawing.Point(12, 87);
+            this.b01.Location = new System.Drawing.Point(12, 127);
             this.b01.Name = "b01";
             this.b01.Size = new System.Drawing.Size(72, 69);
             this.b01.TabIndex = 4;
             this.b01.TabStop = false;
             this.b01.Text = "F";
             this.b01.UseVisualStyleBackColor = true;
+            this.b01.Click += new System.EventHandler(this.b00_Click);
             // 
             // b32
             // 
             this.b32.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b32.Location = new System.Drawing.Point(247, 165);
+            this.b32.Location = new System.Drawing.Point(247, 205);
             this.b32.Name = "b32";
             this.b32.Size = new System.Drawing.Size(72, 69);
             this.b32.TabIndex = 11;
             this.b32.TabStop = false;
             this.b32.Text = "F";
             this.b32.UseVisualStyleBackColor = true;
+            this.b32.Click += new System.EventHandler(this.b00_Click);
             // 
             // b22
             // 
             this.b22.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b22.Location = new System.Drawing.Point(168, 165);
+            this.b22.Location = new System.Drawing.Point(168, 205);
             this.b22.Name = "b22";
             this.b22.Size = new System.Drawing.Size(72, 69);
             this.b22.TabIndex = 10;
             this.b22.TabStop = false;
             this.b22.Text = "F";
             this.b22.UseVisualStyleBackColor = true;
+            this.b22.Click += new System.EventHandler(this.b00_Click);
             // 
             // b12
             // 
             this.b12.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b12.Location = new System.Drawing.Point(90, 165);
+            this.b12.Location = new System.Drawing.Point(90, 205);
             this.b12.Name = "b12";
             this.b12.Size = new System.Drawing.Size(72, 69);
             this.b12.TabIndex = 9;
             this.b12.TabStop = false;
             this.b12.Text = "F";
             this.b12.UseVisualStyleBackColor = true;
+            this.b12.Click += new System.EventHandler(this.b00_Click);
             // 
             // b02
             // 
             this.b02.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b02.Location = new System.Drawing.Point(12, 165);
+            this.b02.Location = new System.Drawing.Point(12, 205);
             this.b02.Name = "b02";
             this.b02.Size = new System.Drawing.Size(72, 69);
             this.b02.TabIndex = 8;
             this.b02.TabStop = false;
             this.b02.Text = "F";
             this.b02.UseVisualStyleBackColor = true;
+            this.b02.Click += new System.EventHandler(this.b00_Click);
             // 
             // b33
             // 
             this.b33.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b33.Location = new System.Drawing.Point(247, 240);
+            this.b33.Location = new System.Drawing.Point(247, 280);
             this.b33.Name = "b33";
             this.b33.Size = new System.Drawing.Size(72, 69);
             this.b33.TabIndex = 15;
             this.b33.TabStop = false;
             this.b33.Text = "F";
             this.b33.UseVisualStyleBackColor = true;
+            this.b33.Click += new System.EventHandler(this.b00_Click);
             // 
             // b23
             // 
             this.b23.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b23.Location = new System.Drawing.Point(168, 240);
+            this.b23.Location = new System.Drawing.Point(168, 280);
             this.b23.Name = "b23";
             this.b23.Size = new System.Drawing.Size(72, 69);
             this.b23.TabIndex = 14;
             this.b23.TabStop = false;
             this.b23.Text = "F";
             this.b23.UseVisualStyleBackColor = true;
+            this.b23.Click += new System.EventHandler(this.b00_Click);
             // 
             // b13
             // 
             this.b13.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b13.Location = new System.Drawing.Point(90, 240);
+            this.b13.Location = new System.Drawing.Point(90, 280);
             this.b13.Name = "b13";
             this.b13.Size = new System.Drawing.Size(72, 69);
             this.b13.TabIndex = 13;
             this.b13.TabStop = false;
             this.b13.Text = "F";
             this.b13.UseVisualStyleBackColor = true;
+            this.b13.Click += new System.EventHandler(this.b00_Click);
             // 
             // b03
             // 
             this.b03.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.b03.Location = new System.Drawing.Point(12, 240);
+            this.b03.Location = new System.Drawing.Point(12, 280);
             this.b03.Name = "b03";
             this.b03.Size = new System.Drawing.Size(72, 69);
             this.b03.TabIndex = 12;
             this.b03.TabStop = false;
             this.b03.Text = "F";
             this.b03.UseVisualStyleBackColor = true;
+            this.b03.Click += new System.EventHandler(this.b00_Click);
+            // 
+            // buttonStart
+            // 
+            this.buttonStart.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonStart.Location = new System.Drawing.Point(90, 12);
+            this.buttonStart.Name = "buttonStart";
+            this.buttonStart.Size = new System.Drawing.Size(150, 36);
+            this.buttonStart.TabIndex = 16;
+            this.buttonStart.Text = "Start";
+            this.buttonStart.UseVisualStyleBackColor = true;
+            this.buttonStart.Click += new System.EventHandler(this.buttonStart_Click);
+            // 
+            // labelMoves
+            // 
+            this.labelMoves.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelMoves.Location = new System.Drawing.Point(12, 363);
+            this.labelMoves.Name = "labelMoves";
+            this.labelMoves.Size = new System.Drawing.Size(307, 50);
+            this.labelMoves.TabIndex = 17;
+            this.labelMoves.Text = "Moves";
+            this.labelMoves.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FormF15
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(331, 324);
+            this.ClientSize = new System.Drawing.Size(331, 414);
+            this.Controls.Add(this.labelMoves);
+            this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.b33);
             this.Controls.Add(this.b23);
             this.Controls.Add(this.b13);
@@ -274,6 +314,8 @@
         private System.Windows.Forms.Button b23;
         private System.Windows.Forms.Button b13;
         private System.Windows.Forms.Button b03;
+        private System.Windows.Forms.Button buttonStart;
+        private System.Windows.Forms.Label labelMoves;
     }
 }
 

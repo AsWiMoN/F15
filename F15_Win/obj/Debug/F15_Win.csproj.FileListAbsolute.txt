@@ -8,3 +8,6 @@ D:\z_tp\C_sharp\F15\F15_Win\obj\Debug\F15_Win.csproj.GenerateResource.cache
 D:\z_tp\C_sharp\F15\F15_Win\obj\Debug\F15_Win.csproj.CoreCompileInputs.cache
 D:\z_tp\C_sharp\F15\F15_Win\obj\Debug\F15_Win.exe
 D:\z_tp\C_sharp\F15\F15_Win\obj\Debug\F15_Win.pdb
+D:\z_tp\C_sharp\F15\F15_Win\bin\Debug\BoardF.dll
+D:\z_tp\C_sharp\F15\F15_Win\bin\Debug\BoardF.pdb
+D:\z_tp\C_sharp\F15\F15_Win\obj\Debug\F15_Win.csproj.CopyComplete

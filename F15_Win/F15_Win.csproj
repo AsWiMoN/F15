@@ -85,5 +85,11 @@
   <ItemGroup>
     <Content Include="GameF.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BoardF\BoardF.csproj">
+      <Project>{742b0137-c7a2-4235-9d6f-a3f82963bc01}</Project>
+      <Name>BoardF</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
